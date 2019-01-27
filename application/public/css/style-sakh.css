@@ -15,6 +15,7 @@
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
+    margin-top: 2px;
 }
 
 .info-user {
@@ -28,6 +29,7 @@
     border-radius: 4px;
     background-color: #3aa2ff;
     margin-left: 4px;
+    margin-top: 2px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -68,5 +70,11 @@
     }
     .header-right {
         float: none;
+    }
+
+    .info-user {
+        float: none;
+        display: block;
+        text-align: left;
     }
 }

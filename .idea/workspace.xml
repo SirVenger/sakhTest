@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bc8c9d9-7c06-4a8c-9bc9-84a44dff9740" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/public/css/style-sakh.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/public/images/sakhcom_winter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../alpha/application/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../alpha/application/.env.dist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../alpha/docker-compose.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../alpha/docker-compose.yml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/Controller/TransferController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/Controller/TransferController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/Controller/my_app.log" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/Controller/my_app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/Service/CalculatePay.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/Service/CalculatePay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/transfer/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/transfer/_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/transfer/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/transfer/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/transfer/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/transfer/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/public/css/style-sakh.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/public/css/style-sakh.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,20 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig">
+        <entry file="file://$PROJECT_DIR$/application/public/css/style-sakh.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="173">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -89,17 +69,24 @@
         <option value="$PROJECT_DIR$/application/var/cache/dev/ContainerL4u4xar/getCheckUsersService.php" />
         <option value="$PROJECT_DIR$/application/config/packages/dev/monolog.yaml" />
         <option value="$PROJECT_DIR$/application/src/Service/CalculatePay.php" />
-        <option value="$PROJECT_DIR$/application/public/css/style-sakh.css" />
         <option value="$PROJECT_DIR$/application/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/application/templates/header.html" />
         <option value="$PROJECT_DIR$/application/templates/head.html.twig" />
-        <option value="$PROJECT_DIR$/application/templates/transfer/index.html.twig" />
         <option value="$PROJECT_DIR$/application/templates/transfer/edit.html.twig" />
         <option value="$PROJECT_DIR$/application/src/Controller/TransferController.php" />
-        <option value="$PROJECT_DIR$/application/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/application/templates/transfer/_form.html.twig" />
         <option value="$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login_content.html.twig" />
+        <option value="$PROJECT_DIR$/application/templates/bundles/FosUserBundle/base.html.twig" />
+        <option value="$PROJECT_DIR$/application/templates/bundles/FosUserBundle/layout.html.twig" />
+        <option value="$PROJECT_DIR$/application/templates/bundles/FosUserBundle/Security/login_content.html.twig" />
+        <option value="$PROJECT_DIR$/application/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login_content.html.twig" />
+        <option value="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/base.html.twig" />
+        <option value="$PROJECT_DIR$/application/templates/transfer/index.html.twig" />
+        <option value="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/application/public/css/style-sakh.css" />
       </list>
     </option>
   </component>
@@ -243,6 +230,25 @@
               <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,6 +285,17 @@
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
+              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Security" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -300,11 +317,11 @@
       <recent name="$PROJECT_DIR$/application/config/packages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/templates/bundles/FosUserBundle" />
       <recent name="$PROJECT_DIR$/application/public/images" />
       <recent name="$PROJECT_DIR$/application/public/Image" />
       <recent name="$PROJECT_DIR$/application/public" />
       <recent name="$PROJECT_DIR$/application/templates/transfer" />
-      <recent name="$PROJECT_DIR$/application/config/packages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,12 +346,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548427048071</updated>
-      <workItem from="1548427049663" duration="49274000" />
+      <workItem from="1548427049663" duration="52188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49274000" />
+    <option name="totallyTimeSpent" value="52188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
@@ -389,46 +406,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/templates/user/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/user/_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/user/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="44" column="79" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="e#63#105#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alpha/application/src/Controller/Admin/ApartmentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="69" />
-          <folding>
-            <element signature="e#40#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alpha/application/src/DataFixtures/AppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../alpha/application/src/Form/FilterFormType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -616,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/public/css/style-sakh.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/bundles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -634,20 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="110" selection-start-line="22" selection-start-column="1" selection-end-line="25" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/transfer/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -668,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../alpha/application/templates/apartment/_form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -684,13 +633,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/templates/transfer/_form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
@@ -702,14 +644,87 @@
     <entry file="file://$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/ChangePassword/change_password.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/elements/form_row.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/transfer/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/public/css/style-sakh.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
