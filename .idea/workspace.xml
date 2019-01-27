@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bc8c9d9-7c06-4a8c-9bc9-84a44dff9740" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/check_email.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/confirmed.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/email.txt.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/register.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/register_content.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../alpha/application/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../alpha/application/.env.dist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../alpha/docker-compose.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../alpha/docker-compose.yml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/transfer/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/transfer/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/transfer/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/transfer/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,26 +16,7 @@
     <pharConfigPath>$PROJECT_DIR$/application/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/register_content.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,8 +85,8 @@
         <option value="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/confirmed.html.twig" />
         <option value="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/check_email.html.twig" />
         <option value="$PROJECT_DIR$/application/templates/transfer/index.html.twig" />
-        <option value="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/register_content.html.twig" />
+        <option value="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login.html.twig" />
       </list>
     </option>
   </component>
@@ -254,154 +226,6 @@
               <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="transfer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="var" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="var" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="var" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
-              <item name="Type" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Security" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -452,12 +276,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548427048071</updated>
-      <workItem from="1548427049663" duration="60920000" />
+      <workItem from="1548427049663" duration="61753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60920000" />
+    <option name="totallyTimeSpent" value="61753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
@@ -615,13 +439,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/Migrations/Version20190127202246.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/var/log/transfer.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/Repository/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -819,17 +636,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login.html.twig">
+    <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/register_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Registration/register_content.html.twig">
+    <entry file="file://$PROJECT_DIR$/application/var/log/transfer.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
         </state>
       </provider>
     </entry>
