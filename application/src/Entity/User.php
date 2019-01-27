@@ -31,11 +31,18 @@ class User extends BaseUser
         // your own logic
     }
 
+    /**
+     * @return int|null
+     */
     public function getBalance(): ?int
     {
         return $this->balance;
     }
 
+    /**
+     * @param int|null $balance
+     * @return User
+     */
     public function setBalance(?int $balance): self
     {
         $this->balance = $balance;
