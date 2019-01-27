@@ -8,8 +8,13 @@
 
 namespace App\Service;
 
-class checkUsers
+class CheckUsers
 {
+    /**
+     * @param $users
+     * @param int $id
+     * @return array
+     */
     public function checkUsers($users, int $id)
     {
         $result = [];

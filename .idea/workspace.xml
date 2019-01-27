@@ -5,7 +5,27 @@
       <change beforePath="$PROJECT_DIR$/../alpha/application/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../alpha/application/.env.dist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../alpha/docker-compose.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../alpha/docker-compose.yml.dist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/public/css/style-sakh.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/public/css/style-sakh.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Controller/TransferController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/Controller/TransferController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Controller/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Controller/my_app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/DataFixtures/AppFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Form/UserType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Migrations/Version20190126090134.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Service/CalculatePay.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/Service/CalculatePay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Service/CheckUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/Service/CheckUsers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/Service/TransferLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/Service/TransferLog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/user/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/user/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/user/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/user/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/user/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/user/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getForm_RegistryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getForm_RegistryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getUser1TypeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getUser1TypeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/removed-ids.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/removed-ids.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getForm_RegistryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getForm_RegistryService.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +38,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/public/css/style-sakh.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/Controller/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="-15">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getConsole_Command_FormDebugService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="884" lean-forward="true" selection-start-line="11" selection-start-column="884" selection-end-line="11" selection-end-column="884" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/var/cache/dev/Container964xskb/removed-ids.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/removed-ids.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getUser1TypeService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getConsole_Command_FormDebugService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="884" selection-start-line="11" selection-start-column="884" selection-end-line="11" selection-end-column="884" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getForm_RegistryService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getUser1TypeService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getForm_RegistryService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/Form/User1Type.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -47,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/.env" />
-        <option value="$PROJECT_DIR$/application/src/Controller/HomepageController.php" />
         <option value="$PROJECT_DIR$/application/src/Form/LoginType.php" />
         <option value="$PROJECT_DIR$/application/config/bundles.php" />
         <option value="$PROJECT_DIR$/application/config/services.yaml" />
@@ -56,11 +155,7 @@
         <option value="$PROJECT_DIR$/application/templates/index.html.twig" />
         <option value="$PROJECT_DIR$/application/config/packages/framework.yaml" />
         <option value="$PROJECT_DIR$/application/config/packages/twig.yaml" />
-        <option value="$PROJECT_DIR$/application/src/Controller/UserController.php" />
-        <option value="$PROJECT_DIR$/application/templates/user/index.html.twig" />
         <option value="$PROJECT_DIR$/application/templates/user/show.html.twig" />
-        <option value="$PROJECT_DIR$/application/src/Entity/User.php" />
-        <option value="$PROJECT_DIR$/application/src/Repository/UserRepository.php" />
         <option value="$PROJECT_DIR$/application/src/Service/checkUsers.php" />
         <option value="$PROJECT_DIR$/application/src/Form/TranserType.php" />
         <option value="$PROJECT_DIR$/application/src/Service/calculatePay.php" />
@@ -68,12 +163,10 @@
         <option value="$PROJECT_DIR$/application/var/cache/dev/ContainerHdwcEVT/getCheckUsersService.php" />
         <option value="$PROJECT_DIR$/application/var/cache/dev/ContainerL4u4xar/getCheckUsersService.php" />
         <option value="$PROJECT_DIR$/application/config/packages/dev/monolog.yaml" />
-        <option value="$PROJECT_DIR$/application/src/Service/CalculatePay.php" />
         <option value="$PROJECT_DIR$/application/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/application/templates/header.html" />
         <option value="$PROJECT_DIR$/application/templates/head.html.twig" />
         <option value="$PROJECT_DIR$/application/templates/transfer/edit.html.twig" />
-        <option value="$PROJECT_DIR$/application/src/Controller/TransferController.php" />
         <option value="$PROJECT_DIR$/application/templates/transfer/_form.html.twig" />
         <option value="$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/application/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig" />
@@ -87,6 +180,25 @@
         <option value="$PROJECT_DIR$/application/templates/transfer/index.html.twig" />
         <option value="$PROJECT_DIR$/application/templates/bundles/FOSUserBundle/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/application/public/css/style-sakh.css" />
+        <option value="$PROJECT_DIR$/application/src/Service/CalculatePay.php" />
+        <option value="$PROJECT_DIR$/application/src/Service/TransferLog.php" />
+        <option value="$PROJECT_DIR$/application/src/Service/CheckUsers.php" />
+        <option value="$PROJECT_DIR$/application/src/Repository/UserRepository.php" />
+        <option value="$PROJECT_DIR$/application/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/application/src/DataFixtures/UserFixtures.php" />
+        <option value="$PROJECT_DIR$/application/src/Form/UserType.php" />
+        <option value="$PROJECT_DIR$/application/src/Controller/TransferController.php" />
+        <option value="$PROJECT_DIR$/application/src/Form/User1Type.php" />
+        <option value="$PROJECT_DIR$/application/templates/user/index.html.twig" />
+        <option value="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getConsole_Command_FormDebugService.php" />
+        <option value="$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/removed-ids.php" />
+        <option value="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getForm_RegistryService.php" />
+        <option value="$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getConsole_Command_FormDebugService.php" />
+        <option value="$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getForm_RegistryService.php" />
+        <option value="$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getUser1TypeService.php" />
+        <option value="$PROJECT_DIR$/application/src/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getUser1TypeService.php" />
+        <option value="$PROJECT_DIR$/application/var/cache/dev/Container964xskb/removed-ids.php" />
       </list>
     </option>
   </component>
@@ -230,20 +342,89 @@
               <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sakhTest" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sakhTest" type="b2602c69:ProjectViewProjectNode" />
@@ -346,19 +527,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548427048071</updated>
-      <workItem from="1548427049663" duration="52188000" />
+      <workItem from="1548427049663" duration="57821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52188000" />
+    <option name="totallyTimeSpent" value="57821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22045454" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22045454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -366,7 +547,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -406,155 +587,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../alpha/application/src/Form/FilterFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="e#28#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerL4u4xar/getCalculatePayService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Service/CheckUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerHdwcEVT/getCheckUsersService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerL4u4xar/getCheckUsersService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Form/UserType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-          <folding>
-            <element signature="e#28#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Form/TranserType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="e#108#128#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Repository/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Controller/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="56" />
-          <folding>
-            <element signature="e#34#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/packages/prod/monolog.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/var/log/dev.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/packages/dev/monolog.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Controller/my_app.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Controllertransfer.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Service/CalculatePay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/public/%kernel.logs_dir%/transfer.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/public/%kernel.root_dir%/transfer.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/public/var/log/transfer.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/public/css/lib/chosen/chosen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alpha/application/templates/elements/form_row.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alpha/application/templates/apartment/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alpha/application/templates/layouts/main.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/public/Image/sakhcom_winter.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/twig/0f/0fb6e0886b877087518baa18c553c44b5b63461018ccd89c9b401835accc77cd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20655">
-          <caret line="1377" column="42" selection-start-line="1377" selection-start-column="42" selection-end-line="1377" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -586,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/var/log/transfer.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/bundles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -611,16 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/Controller/TransferController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-          <folding>
-            <element signature="e#34#54#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,8 +738,177 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/public/css/style-sakh.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="443">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Service/TransferLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#111#130#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Service/CalculatePay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/DataFixtures/AppFixtures.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Controller/my_app.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Service/CheckUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Migrations/Version20190126090134.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Migrations/Version20190127202246.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/var/log/transfer.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Migrations/Version20190127202715.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Migrations/Version20190127202906.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Form/UserType.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Controller/TransferController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#34#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/DataFixtures/UserFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="e#36#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/user/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding>
+            <element signature="e#132#174#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Form/User1Type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getConsole_Command_FormDebugService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="884" lean-forward="true" selection-start-line="11" selection-start-column="884" selection-end-line="11" selection-end-column="884" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/removed-ids.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getForm_RegistryService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getConsole_Command_FormDebugService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="884" selection-start-line="11" selection-start-column="884" selection-end-line="11" selection-end-column="884" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getForm_RegistryService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/ContainerYCU1FWB/getUser1TypeService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/Container964xskb/getUser1TypeService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/var/cache/dev/Container964xskb/removed-ids.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
         </state>
       </provider>
     </entry>

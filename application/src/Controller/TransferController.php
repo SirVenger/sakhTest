@@ -5,16 +5,13 @@ namespace App\Controller;
 use App\Entity\User;
 use App\Form\TranserType;
 use App\Service\CalculatePay;
-use FOS\UserBundle\Doctrine\UserManager;
-use phpDocumentor\Reflection\Types\Null_;
+use App\Service\TransferLog;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use App\Service\CheckUsers;
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
-use Monolog\Handler\FirePHPHandler;
+
 
 /**
  * Class TransferController
@@ -23,9 +20,11 @@ use Monolog\Handler\FirePHPHandler;
 class TransferController extends AbstractController
 {
     /**
+     * @param CheckUsers $checkUsers
+     * @return Response
      * @Route("/", name="transfer", methods={"GET"})
      */
-    public function Index(CheckUsers $checkUsers): Response
+    public function actionIndex(CheckUsers $checkUsers): Response
     {
 
         //$userManager = $this->container->get('fos_user.user_manager');
@@ -55,11 +54,12 @@ class TransferController extends AbstractController
      * @param Request $request
      * @param User $user
      * @param CalculatePay $calculatePay
-     * @return \Symfony\Component\HttpFoundation\RedirectResponse|Response
-     * @throws \Exception
+     * @param TransferLog $transferLog
+     * @return Response
+     *
      * @Route("/transfer_balance/{id}", name="pull_balance", methods="GET|POST")
      */
-    public function actionTransfer(Request $request, User $user, CalculatePay $calculatePay )
+    public function actionTransfer(Request $request, User $user, CalculatePay $calculatePay, TransferLog $transferLog ): Response
     {
         $sendUser = $this->getUser();
         $maxBalance = $sendUser->getBalance();
@@ -71,21 +71,12 @@ class TransferController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
             $data = $form->getData();
-
+            //Считает изменение баланса и возвращает сообщение
             $message = $calculatePay->calculate($sendUser, $user, $data['balance']);
-
-            // Create the logger
-            $logger = new Logger('my_logger');
-            // Now add some handlers
-
-            $logger->pushHandler(new StreamHandler("../var/log/transfer.log", Logger::DEBUG));
-            $logger->pushHandler(new FirePHPHandler());
-            $logger->info($message);
-
+            $transferLog->writeLog($message);
             $this->getDoctrine()->getManager()->flush();
 
             return $this->redirectToRoute('transfer', [
-                'id' => $user->getId(),
             ]);
         }
 
