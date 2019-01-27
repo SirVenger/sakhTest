@@ -1,0 +1,72 @@
+<div class="header__content-container">
+    <div class="mobile-menu header__mobile-menu">
+        <div class="mobile-menu__burger">
+            <input id="click" name="exit" type="checkbox"/>
+            <label for="click">
+                <span class="burger"></span>
+
+            </label>
+        </div>
+
+        <button class=" mobile-menu__question-btn">
+            Задать вопрос
+        </button>
+
+        <div class="mobile-menu__content-container">
+            <div class="mobile-menu__list">
+                <a href="{{ path('landing_index') }}" class="mobile-menu__item">Главная</a>
+                <a href="{{ path('landing_documentation') }}" class="mobile-menu__item">Документы</a>
+            </div>
+
+            <div class="mobile-menu__phone-container">
+                <a href="tel:+1234567890" class="mobile-menu__phone">+7 777 777 77 77</a>
+                <div class="mobile-menu__description">Телефон офиса продаж</div>
+            </div>
+
+            <div class="mobile-menu__footer">
+                <div class="mobile-menu__logo-container">
+                    <img src="{{ asset('assets/landing/img/logo.png') }}" class="mobile-menu__logo"/>
+                </div>
+                <div class="social-links mobile-menu__social">
+                    <a class="social-links__item" href="#"><img
+                                src="{{ asset('assets/landing/img/social-icons/facebook.png') }}"></a>
+                    <a class="social-links__item" href="#"><img
+                                src="{{ asset('assets/landing/img/social-icons/noname.png') }}"></a>
+                    <a class="social-links__item" href="#"><img
+                                src="{{ asset('assets/landing/img/social-icons/insta.png') }}"></a>
+                    <a class="social-links__item" href="#"><img
+                                src="{{ asset('assets/landing/img/social-icons/youtube.png') }}"></a>
+                    <a class="social-links__item" href="#"><img
+                                src="{{ asset('assets/landing/img/social-icons/telegram.png') }}"></a>
+                </div>
+
+                <img src="{{ asset('assets/landing/img/expil-logo.png') }}" class="mobile-menu__expil-logo">
+            </div>
+        </div>
+    </div>
+    <div class="header-menu header__menu">
+        <a href="{{ path('landing_index') }}" class="header-menu__item">Главная</a>
+        <a href="{{ path('landing_documentation') }}" class="header-menu__item">Документы</a>
+        <a href="/about" class="header-menu__item">О компании</a>
+        <a href="/project" class="header-menu__item">Проекты</a>
+        <a href="/news" class="header-menu__item">Новости</a>
+    </div>
+    <div class="header__logo"></div>
+    <div class="header__links-container">
+        <div src="img/visually-impaired.svg" class="header__visually-impaired">
+            <svg viewBox="0 0 71.65 38.11">
+                <path id="Белок" class="cls-1"
+                      d="M0,18.37v.35c25.85,25.85,45.81,25.85,71.65,0v-.35C47.15-6.12,24.5-6.12,0,18.37ZM35.83,34.55a16,16,0,1,1,16-16A16,16,0,0,1,35.83,34.55Z"/>
+                <path id="Зрачок" class="cls-1"
+                      d="M41.83,16.55a4,4,0,0,1-2.29-7.28,10,10,0,1,0,6.29,9.28,9.79,9.79,0,0,0-.73-3.72A4,4,0,0,1,41.83,16.55Z"/>
+            </svg>
+        </div>
+
+
+        <a href="#" class="header__phone">+7 777 777 77 77</a>
+
+        <button class="header__question-btn" onclick="window.location.href='/404'">
+            Задать вопрос
+        </button>
+    </div>
+</div>

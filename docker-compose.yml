@@ -1,0 +1,54 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:5.7
+    ports:
+      - 3307:3307
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: sakh
+      MYSQL_DATABASE: sakh
+    networks:
+      - sakh
+
+  nginx:
+    build: ./docker/nginx
+    ports:
+      - 8080:80
+    depends_on:
+      - php
+      - mysql
+    volumes:
+     - ./application:/var/www/sakh
+    links:
+      - php
+    networks:
+      - sakh
+
+  php:
+    build: ./docker/php
+    volumes:
+      - ./application:/var/www/sakh
+    networks:
+      - sakh
+
+  phpmyadmnin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8100:80"
+    environment:
+      - PMA_ARBITRARY=1
+    restart: always
+    depends_on:
+      - mysql
+    networks:
+      - sakh
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  sakh:
+    driver: bridge

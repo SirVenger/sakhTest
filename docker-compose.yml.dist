@@ -1,0 +1,68 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:5.7
+    ports:
+      - 3306:3306
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: alpha
+      MYSQL_DATABASE: alpha
+    networks:
+      - alpha
+
+  nginx:
+    build: ./docker/nginx
+    ports:
+      - 8080:80
+    depends_on:
+      - php
+      - mysql
+    volumes:
+    ## Take only one
+    # for linux
+      - ./application:/var/www/alpha
+    # for macOS
+    #  - alpha-php-sync:/var/www/alpha
+    links:
+      - php
+    networks:
+      - alpha
+
+  php:
+    build: ./docker/php
+    volumes:
+      - ./application:/var/www/alpha
+    networks:
+      - alpha
+
+  phpmyadmnin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8090:80"
+    environment:
+      - PMA_ARBITRARY=1
+    restart: always
+    depends_on:
+      - mysql
+    networks:
+      - alpha
+
+  elasticsearch:
+    image: elasticsearch:6.4.1
+    ports:
+      - 9200:9200
+    networks:
+      - alpha
+
+volumes:
+  mysql_data:
+    driver: local
+  ## Only for macOS
+  # alpha-php-sync:
+  #  external: true
+
+networks:
+  alpha:
+    driver: bridge

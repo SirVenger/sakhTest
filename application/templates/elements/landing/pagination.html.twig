@@ -1,0 +1,20 @@
+{% if pageCount > 1 %}
+    <div class="documentation__pagination">
+        {% if previous is defined %}
+            <a href="{{ path(route, query|merge({(pageParameterName): previous})) }}" class="documentation__pagination-item">&lt;</a>
+        {% endif %}
+
+        {% for page in pagesInRange %}
+            {% if page != current %}
+                <a href="{{ path(route, query|merge({(pageParameterName): page})) }}" class="documentation__pagination-item active">{{ page }}</a>
+            {% else %}
+                <a class="documentation__pagination-item active">{{ page }}</a>
+            {% endif %}
+
+        {% endfor %}
+
+        {% if next is defined %}
+            <a href="{{ path(route, query|merge({(pageParameterName): next})) }}" class="documentation__pagination-item">&gt;</a>
+        {% endif %}
+    </div>
+{% endif %}
