@@ -11,11 +11,12 @@
                         Текущий баланс - {{ user.balance }}
                     </div>
                     <div class="info-user">
-                        Current user - {{ user.username }}
+                        Текущий пользователь - {{ user.username }}
                     </div>
-                    <a href="{{ path('fos_user_security_logout') }}">Logout</a>
+                    <a href="{{ path('fos_user_security_logout') }}">Выйти</a>
             {% else %}
-                    <a href="{{ path('fos_user_security_login') }}">LogIn</a>
+                    <a href="{{ path('fos_user_registration_register') }}">Регистрация</a>
+                    <a href="{{ path('fos_user_security_login') }}">Войти</a>
             {% endif %}
             </div>
     </div>
@@ -24,15 +25,15 @@
             <div class="col-md-12 col-md-offset-1">
                 <div class="panel panel-success">
 
-                    <h2 class="panel-heading ">List Users</h2>
+                    <h2 class="panel-heading ">Список пользователей</h2>
 
                     {% if user != null %}
                         <table class="table">
                             <tr>
-                                <th>Name</th>
-                                <th>Balance</th>
-                                <th>Email</th>
-                                <th>Send</th>
+                                <th>Имя</th>
+                                <th>Баланс</th>
+                                <th>Почта</th>
+                                <th>Перевести</th>
                             </tr>
 
                             {% for value in users %}
@@ -41,7 +42,7 @@
                                     <td>{{ value.balance }}</td>
                                     <td>{{ value.email }}</td>
                                     <td>
-                                        <a href="{{ path('pull_balance', {'id': value.id}) }}">send</a>
+                                        <a href="{{ path('pull_balance', {'id': value.id}) }}">перевод</a>
                                     </td>
                                 </tr>
                             {% endfor %}
@@ -52,7 +53,7 @@
                 </div>
 
                 {% if user == null %}
-                    <a href="/login" class="btn btn-info"> You need to login to see the list 😜😜 >></a>
+                    <a href="/login" class="btn btn-info"> Нужно быть залогининым, чтоб видеть список 😜😜 >></a>
                 {% endif %}
             </div>
         </div>

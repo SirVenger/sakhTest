@@ -21,6 +21,7 @@ class UserFixtures extends Fixture
             $user->setEmail('test'.$i.'@test.co');
             $user->setPlainPassword('test');
             $user->setEnabled(true);
+            $user->setBalance(rand(100,3000));
             $this->userManager->updateUser($user,false);
         }
         $user = $this->userManager->createUser();
