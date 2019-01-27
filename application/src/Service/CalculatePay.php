@@ -16,7 +16,7 @@ class CalculatePay
     {
         $userSender->setBalance($userSender->getBalance() - $balance);
         $userAddressee->setBalance($userAddressee->getBalance() + $balance);
-        $message = $userSender->getUsername(). 'transfer'. $userAddressee->getUsername().': '.$balance;
+        $message = $userSender->getUsername(). ' перевёл '. $userAddressee->getUsername().' : '.$balance;
         return $message;
     }
 

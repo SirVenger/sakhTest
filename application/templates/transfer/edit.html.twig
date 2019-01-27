@@ -1,12 +1,45 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Edit transfer{% endblock %}
+{% block title %}Перевод{% endblock %}
 
 {% block body %}
-    <h1>Edit User</h1>
+    <div class="header">
+        <a href="//sakh.com" >
+            <img src="{{ asset('images/sakhcom_winter.png') }}">
+        </a>
+        <div class="header-right">
+            {% if user != null %}
+                <div class="info-user">
+                    Текущий баланс - {{ send_user.balance }}
+                </div>
+                <div class="info-user">
+                    Current user - {{ send_user.username }}
+                </div>
+                <a href="{{ path('fos_user_security_logout') }}">Logout</a>
+            {% endif %}
+        </div>
+    </div>
 
-    {{ include('transfer/_form.html.twig', {'button_label': 'Transfer'}) }}
+    <div class="card">
+        <div class="card-body">
+            {{ include('transfer/_form.html.twig', {'button_label': 'Transfer'}) }}
+        </div>
+    </div>
 
-    <a href="{{ path('transfer') }}">back to list User</a>
+    <div class="row">
+        <div class="col-sm-12">
+              <div class="card-body">
+                    <a class="btn btn-outline-info" href="{{ path('transfer') }}">Вернуться к списку пользователей</a>
+              </div>
+        </div>
+    </div>
 
+    {#<a href="{{ path('transfer') }}">back to list User</a>#}
+
+{% endblock %}
+
+{% block styles %}
+    {{ parent() }}
+    <!-- Include external CSS. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
 {% endblock %}

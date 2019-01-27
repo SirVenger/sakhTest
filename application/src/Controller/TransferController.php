@@ -54,9 +54,10 @@ class TransferController extends AbstractController
     /**
      * @param Request $request
      * @param User $user
-     * @return Response
-     *
-     * @Route("/{id}/transfer_balance", name="pull_balance", methods="GET|POST")
+     * @param CalculatePay $calculatePay
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|Response
+     * @throws \Exception
+     * @Route("/transfer_balance/{id}", name="pull_balance", methods="GET|POST")
      */
     public function actionTransfer(Request $request, User $user, CalculatePay $calculatePay )
     {
@@ -76,7 +77,8 @@ class TransferController extends AbstractController
             // Create the logger
             $logger = new Logger('my_logger');
             // Now add some handlers
-            $logger->pushHandler(new StreamHandler(__DIR__.'/my_app.log', Logger::DEBUG));
+
+            $logger->pushHandler(new StreamHandler("../var/log/transfer.log", Logger::DEBUG));
             $logger->pushHandler(new FirePHPHandler());
             $logger->info($message);
 
@@ -89,6 +91,7 @@ class TransferController extends AbstractController
 
         return $this->render('transfer/edit.html.twig', [
             'user' => $user,
+            'send_user'=> $sendUser,
             'form' => $form->createView(),
         ]);
     }
