@@ -9,3 +9,9 @@
 
 Логи находятся в файле по пути var/dev/log/transfer.log
 
+localhost:8100-phpmyadmin 
+server - mysql
+user - root
+password sakh
+
+localhost:8080-главная сайта
